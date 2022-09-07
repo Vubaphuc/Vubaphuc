@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+form{
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+}
+.chu-y{
+    text-align: center;
+    font-size: 15px;
+}
+.so-dien-thoai {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ngay-sinh {
+    margin-top: 10px;
+}
+.dang-ky {
+    margin-top: 10px;
+}
+#Month {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dang-ky {
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+}
