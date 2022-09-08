@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1200px;
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+.dau {
+    width: 1200px;
+    height: 35px;
+    margin: 10px 10px;
+    background-color: aqua;
+    border: 1px solid;
+}
+.dau p {
+    line-height: 35px;
+    margin-left: 10px;
+}
+.dau-2 {
+    width: 1105px;
+    height: 40px;
+    margin: 0px auto;
+    background-color: blueviolet;
+    border: 1px solid;
+}
+.container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box1 {
+    width: 30%;
+    height: 500px;
+    background-color: brown;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+}
+.box2 {
+    width: 30%;
+    height: 500px;
+    background-color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+}
+.box3 {
+    width: 30%;
+    height: 500px;
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+}
