@@ -1,0 +1,9 @@
+.thuc-hanh img {
+    width: 350px;
+    height: 250px;
+}
+.thuc-hanh p {
+    font-size: 18px;
+    color: brown;
+    background-color: bisque;
+}
