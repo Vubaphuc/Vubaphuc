@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+}
+.nha-trang {  
+    width: 1200px;
+    height: 700px;
+    float: left;
+    background: url(http://media.dulich24.com.vn/diemden/bai-bien-nha-trang-5768/bai-bien-nha-trang.jpg);
+    background-size: cover;
+    position: absolute;
+}
+h1 {
+    padding: 40px 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
