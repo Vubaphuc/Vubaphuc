@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.list-item {
+    width: 260px;
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 30px;
+}
+.text:nth-child(1n+1) {
+    background-color: rgb(235, 53, 156);
+}
