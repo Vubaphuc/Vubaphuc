@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0px auto;
+}
+.card-list {
+    max-width: 1000px;
+    display: block;
+    margin: 0px auto;
+}
+.list {
+    margin: 0px auto;
+    width: 200px;
+    list-style: none;
+    text-align: center; 
+}
+.text {
+    border: 1px solid #111;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    color: #111;
+    background-color: cyan;
+}
+.text:nth-child(1):hover {
+    background-color: aliceblue;
+    color: black;
+}
+.text:nth-child(2):hover {
+    background-color: crimson;
+    color: cornsilk;
+}
+.text:nth-child(3):hover {
+    background-color: blueviolet;
+    color: azure;
+}
+.text:nth-child(4):hover {
+    background-color: gray;
+    color: black;
+}
+.text:nth-child(5):hover {
+    background-color: red;
+    color: black;
+}
+.text:nth-child(6):hover {
+    background-color: blue;
+    color: cornsilk;
+}
