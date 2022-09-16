@@ -2,17 +2,12 @@
     padding: 0;
     margin: 0;
 }
-body {
-    max-width: 1200px;
-    height: auto;
-    box-sizing: border-box;
-}
 img {
     width: 30px;
     height: 30px;
 }
 .header-facebook {
-    display: flex;
+    display: flex;  
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(250, 247, 242);
@@ -26,14 +21,17 @@ img {
     margin: 0px 10px;
 }
 .search {
-    height: 100%;
+    padding: 7px;
+    border-radius: 20px;
 }
-.menu {
-    margin: 20px;
+.header-menu {
+    display: flex;
+    gap: 80px;
 }
-.tools {
-    margin: 10px;
+.header-utilities {
+    display: flex;
+    gap: 30px;
 }
 .final {
-    margin-right: 5px;
+    margin-right: 30px;
 }
