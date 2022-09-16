@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-content: center;
+}
+.header-menu {
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    padding: 33px;
+}
+.image-logo {
+    width: 70px;
+    height: 30px;
+}
+#menu {
+    display: flex;
+    list-style: none;  
+    padding: 0;
+    margin: 0; 
+}
+.main-menu {
+    margin: auto 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.main-menu a {
+    text-decoration: none;
+    color: black;
+}
+.header-right {
+    margin: auto 0px;
+}
+.button-list {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+.search {
+    display: flex;
+    border: none;
+    gap: 10px;
+    background-color: white;
+}
+.image-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto 0px;
+}
+.text-icon {
+    margin: auto 0px;
+}
+.share {
+    padding: 10px;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+#nav {
+    text-align: center;
+    margin-top: 60px;
+}
+.image-nav {
+    margin-top: 30px;
+}
+.content-nav {
+    display: flex;
+    justify-content: center;
+}
+.text-nav {
+    display: flex;
+    gap: 10px;
+}
+.nav-icon {
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: blue;
+    color: black;
+}
+.nav-icon-text {
+    padding: 18px;
+}
+.note-nav {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sub-note-nav {
+    display: flex;
+    gap: 20px;
+}
+.sub-not {
+    margin-right: 10px;
+    font-weight: 100;
+}
+.sub-not ul li {
+    font-weight: 100;
+}
+.nav-button-list {
+    display: flex; 
+    gap: 10px;
+}
+.button-save {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.button-like {
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: red;
+    height: 40px;
+}
+.but-icon {
+    width: 25px;
+    height: 20px;
+    margin: auto 0px;
+}
