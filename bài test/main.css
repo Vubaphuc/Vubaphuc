@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 960px;
+    display: flex;
+    gap: 20px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    display: block;
+    margin: auto 5px;
+}
+#logo img{
+    max-width: 50px;
+    height: 30px;
+    display: block;
+    margin-top: -135px;
+    margin-left: 10px;
+}
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+/* menu đặc biệt */
+.sub-main-especially {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.sub-menu-left {
+    list-style: none;
+}
+.sub-menu-list {
+    display: flex;
+    text-decoration: none;
+}
+.sub-menu-centent {
+    display: grid;
+}
+.sub-menu-right {
+    
+}
+.main-menu-more {
+    list-style: none;
+}
+.text-menu-more a {
+    text-decoration: none;
+    display: block;
+    padding: 4px;
+}
+.text-menu-more-red {
+    font-weight: 700;
+    color: black;
+}
+.text-menu-more-black {
+    color: black;
+}
+.menu-list-a {
+    color: black;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+.image-icon-sub {
+    width: 50px;
+    height: 50px;
+}
+.text-sub-list {
+    margin: 3px 7px; 
+    color: black;   
+}
+.text-sub-menu-start {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* setting icon */
+.fa-heart {
+    display: block;
+    font-size: 30px;
+    padding: 10px 0px;
+    
+}
+.fa-heart::before {
+    content: "\f004";
+    display: block;
+    color: #f00
+}
+.fa-message {
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-book-open {
+    padding: 10px;
+}
+.fa-calendar-week {
+    padding: 10px;
+    font-size: 25px;
+}
+.fa-solid {
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-regular {
+    padding: 10px;
+    font-size: 20px;
+}
+.phuc {
+    color: red;
+}
+.fa-regular:nth-child(2n+1){
+    color: blue;
+}
