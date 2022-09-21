@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.text__img {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+}
+.text__start {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    list-style: none;
+    display: block;
+    margin-bottom: 20px;
+}
+.text {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.text__end {
+    list-style: none;
+    font-size: 30px;
+    font-style: italic;
+    display: block;
+    margin-top: 20px;
+}
+.text__note {
+    text-transform: uppercase;
+    color: blue;
+}
+.text__other {
+    color: red;
+    text-transform: uppercase;
+}
+h2 {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}

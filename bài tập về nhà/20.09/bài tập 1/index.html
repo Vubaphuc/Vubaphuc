@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>bài tập 1</title>
+    </head>
+    <body>
+        <div class="text__img">
+            <img src="./anh/anh_1.png" alt="ảnh bài tập" class="image">
+            <ul id="text">
+                <li class="text__start">Đây là một trong những vấn đề với z-index:</li>
+                <li class="text">Mọi element trong một trong HTML có thể ở phía trước hay phía sau các element khác trong document. Đây được gọi là thứ tự xếp lớp (stacking order)</li>
+                <li class="text">Một nhóm các element có chung một element cha sẽ cùng di chuyển chung với nhau trong stacking order, tạo nên khái niệm gọi là stacking context.</li>
+                <li class="text">Mỗi một stacking context sẽ có 1 HTML element là element gốc (root element). Khi một stacking context gắn với một element, nó sẽ liên kết tất cả các element con vào 1 vị trí cố định trong stacking order.</li>
+                <li class="text__end">Điều đó có nghĩa là nếu 1 element nằm trong 1 <span class="text__note">stacking context</span> nằm ở dưới cùng của <span class="text__other">stacking order</span>, sẽ không có cách nào làm cho nó xuất hiện phía trước một element nằm trong 1 <span class="text__note">stacking context</span> có vị trí cao hơn trong <span class="text__other">stacking order</span>, ngay cả nếu set z-index của nó tới 9999 !</li>
+            </ul>
+            <h2>Vậy Card "PARENT"(Cha) và "CHILD"(Con) nằm cùng 1 <span class="text__other">stacking order</span>, trong khi đó Card "NOT CHILD" lại nằm ở 1 <span class="text__other">stacking order</span> khác nên Card "CHILD(Con) dù có xét Z-index cao hơn Card "NOT CHILD" nhưng vẫn không thể nằm trên được</h2>
+        </div>
+    </body>
+</html>
