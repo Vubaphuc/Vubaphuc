@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-width: 1000px;
+    height: auto;
+    margin: 0px auto;
+}
+.long__distance {
+    margin-top: 20px;
+}
+img {
+    display: block;
+    margin: 0px auto;
+}
+h2 {
+    text-align: center;
+}
+li::marker {
+    content: " ◆ ";
+}
+h2::before {
+    content: " ◆ ";
+    background-color: red;
+    display: inline-block;
+    margin: 0px auto;
+}
+li::after {
+    content: "!";
+}
+li::selection {
+    background-color: black;
+    color: wheat;
+}
+h2::selection {
+    background-color: black;
+    color: wheat;
+}
