@@ -35,7 +35,7 @@
     }
 }
 .test:nth-child(1) {
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: white;
     transform-origin: bottom right; 
 } 
