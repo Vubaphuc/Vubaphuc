@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #161b29;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.loading__spinner {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: loading__spinner 5s linear infinite;
+}
+  
+.spinner {
+    height: 35px;
+    max-height: 100%;
+    overflow: auto;
+    width: 35px;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: inset 0vw 0vw 0.1vw #e645d0, 0vw 0vw 1.5vw 0vw #e645d0;
+}
+
+.one {
+    transform: rotate(45deg);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 115px;
+    animation: one 1s ease infinite;
+}
+  
+.two {
+    transform: rotate(90deg);
+    left: 85px;
+    right: 0;
+    top: 0;
+    bottom: 85px;
+    animation: two 1s 0.125s ease infinite;
+}
+  
+.three {
+    transform: rotate(135deg);
+    left: 115px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    animation: three 1s 0.25s ease infinite;
+}
+  
+.four {
+    transform: rotate(180deg);
+    left: 85px;
+    right: 0;
+    top: 85px;
+    bottom: 0;
+    animation: four 1s 0.375s ease infinite;
+}
+  
+.five {
+    transform: rotate(225deg);
+    left: 0;
+    right: 0;
+    top: 115px;
+    bottom: 0;
+    animation: five 1s 0.5s ease infinite;
+}
+  
+.six {
+    transform: rotate(270deg);
+    left: 0;
+    right: 85px;
+    top: 85px;
+    bottom: 0;
+    animation: six 1s 0.625s ease infinite;
+}
+  
+.seven {
+    transform: rotate(315deg);
+    left: 0;
+    right: 115px;
+    top: 0;
+    bottom: 0;
+    animation: seven 1s 0.750s ease infinite;
+}
+  
+.eight {
+    transform: rotate(360deg);
+    left: 0;
+    right: 85px;
+    top: 0;
+    bottom: 85px;
+    animation: eight 1s 0.875s ease infinite
+}
+
+/* hiệu ứng keyframes */
+
+@keyframes loading__spinner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+}
+
+@keyframes one {
+    0%,
+    100%{}
+    50%{
+        box-shadow: inset 0px 0px 0px 1px #17e1e6,  0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes two {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes three {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes four {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes five {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes six {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes seven {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}
+
+@keyframes eight {
+    0%,
+    100% {}
+    50% {
+        box-shadow: inset 0px 0px 0px 1px #17E1E6, 0px 0px 15px 0px #17E1E6;
+    }
+}

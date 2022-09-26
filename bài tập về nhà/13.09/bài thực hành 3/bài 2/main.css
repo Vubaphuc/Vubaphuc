@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    line-height: 1.15;
+    color: black;
+}
+h3 {
+    font-size: 18px;
+    color: #bebebe;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #111;
+    display: inline-block;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+li {
+    list-style: none;
+    flex-basis: 22%; 
+    padding-left: 15px;
+    padding-right: 15px; 
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.sales-online {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+.name {
+    text-align: center;
+    margin: 30px 0px;
+}
+.sales-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image-product {
+    margin-bottom: 10px;
+}
+.price-product a {
+    text-decoration: none;
+}
+.price {
+    margin-top: 10px;
+}
+.buy-now {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0px;
+    opacity: 0.8;
+}
+.buy-now:hover {
+    background-color: brown;
+    color: #111;
+}
+h3:hover {
+    background-color: aqua;
+    color: #111;
+}
+price:hover {
+
+}
+img:hover {
+    filter: opacity(80%);
+}
+.introduce:hover {
+    color: #111;
+}
+.price:hover {
+    color: chocolate;
+}

@@ -1,0 +1,18 @@
+.thuc-hanh img {
+    width: 350px;
+    height: 250px;
+}
+.h2 {
+    font-size: 26px;
+}
+.gio {
+    display: flex;
+}
+.tien{
+    color: rgb(223, 23, 179);
+}
+button {
+    text-align: center;
+    background-color: rgb(223, 23, 179);
+    color: white;
+}

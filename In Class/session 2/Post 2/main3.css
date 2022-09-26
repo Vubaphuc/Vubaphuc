@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.list-box {
+    width: 140px;
+    background-color: cyan;
+}
+.box1 {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+/* 9n + 9 = 9 */
+/* 4n+7 = 7 11 15 */
+.box1:nth-child(odd) {
+    background-color: purple;
+}
+#odd {
+    background-color: cyan;
+}
+

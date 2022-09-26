@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+.header-facebook {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(250, 247, 242);
+    border: 1px solid #111;
+    padding: 10px 0px;
+}
+.header-left {
+    display: flex;
+}
+.facebook {
+    margin: 0px 10px;
+}
+.search {
+    padding: 7px;
+    border-radius: 20px;
+}
+.header-menu {
+    display: flex;
+    gap: 80px;
+}
+.header-utilities {
+    display: flex;
+    gap: 30px;
+}
+.final {
+    margin-right: 30px;
+}
